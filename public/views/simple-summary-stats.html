@@ -1,0 +1,81 @@
+<div class="row" style="margin-top:10px;margin-bottom:10px;">
+  <div style="width: 58% !important;"  class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+    <div class="dashboard-stat2 ">
+      <div class="display">
+        <div style="width: 300px;" class="number">
+          <h3>
+            <span style="color: #ba53ec;" data-counter="counterup" data-value="stats.blockHeight">{{stats.blockHeight | number: 0 }}</span>
+          </h3>
+		  <div>
+			  <div class="icon">
+			    <i class="fa fa-cube"></i>
+			  </div>
+			  <div style="padding-top: 4px; color: #7481f3;">
+				  Block Height
+			  </div>
+		  </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="width: 42% !important;"  class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+    <div class="dashboard-stat2 ">
+      <div class="display">
+        <div style="width: 300px;" class="number">
+          <h3>
+            <span style="color: #ba53ec;" data-counter="counterup" data-value="stats.blockTime">{{stats.blockTime | number: 3}} s</span>
+          </h3>
+		  <div>
+			  <div class="icon">
+			    <i class="fa fa-hourglass-half"></i>
+			  </div>
+			  <div style="padding-top: 4px; color: #7481f3;">
+				  Block Time
+			  </div>
+		  </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row" style="margin-top:10px;margin-bottom:10px;">
+  <div style="width: 58% !important;" class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+    <div class="dashboard-stat2 ">
+      <div class="display">
+        <div style="width: 300px;" class="number">
+          <h3>
+            <span style="color: #ba53ec;" data-counter="counterup" data-value="stats.hashrate">{{stats.hashrate | totalDifficulty}}/s</span>
+          </h3>
+		  <div>
+			 <div class="icon">
+			    <i class="fa fa-tachometer"></i>
+			  </div>
+			  <div style="padding-top: 5px; color: #7481f3;">
+				  Network Hashrate
+			  </div>
+		  </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="width: 42% !important;" class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+    <div class="dashboard-stat2 ">
+      <div class="display">
+        <div style="width: 300px;" class="number">
+          <h3>
+            <span style="color: #ba53ec;" data-counter="counterup" data-value="stats.difficulty">{{stats.difficulty | totalDifficulty}}</span>
+          </h3>
+		  <div>
+			 <div class="icon">
+			    <i class="icon-puzzle"></i>
+			  </div>
+			  <div style="padding-top: 4px; color: #7481f3;">
+				  DIFFICULTY
+			  </div>
+		  </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

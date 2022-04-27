@@ -1,0 +1,34 @@
+{
+    "nodeAddr":     "localhost",
+    "wsPort":       8546,
+    "startBlock":   0,
+    "endBlock":     "latest",
+    "quiet":        true,
+    "syncAll":      true,
+    "patch":        true,
+    "patchBlocks":  100,
+    "bulkSize":     100,
+    "settings": {
+        "symbol": "ETC",
+        "name": "Ethereum Classic",
+        "title": "Ethereum Classic Block Explorer",
+        "author": "Elaine, Cody, Hackmod, Bakon",
+        "contact": "mailto:ethereumclassicanthony@gmail.com",
+        "about": "This is an open source Blockchain Explorer.",
+        "rss": "https://ethereumclassic.org",
+        "reddit": "https://www.reddit.com/r/EthereumClassic",
+        "twitter": "https://twitter.com/eth_classic",
+        "linkedin": "https://www.linkedin.com/company/ethereum-classic",
+        "github": "https://github.com/ethereumclassic",
+        "logo": "/img/explorer-logo.png",
+        "copyright": "2019 &copy; Ethereum Classic.",
+        "poweredbyCustom": false,
+        "poweredbyEtcImage": "/img/powered-by-etcexplorer-w.png",
+        "poweredbyEtc": true,
+        "tokenList": "tokens.json",
+        "useRichList": true,
+        "useFiat": true,
+        "miners": {
+         }
+    }
+}

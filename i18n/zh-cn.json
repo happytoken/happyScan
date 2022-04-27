@@ -1,0 +1,6 @@
+{
+  "blockHeight": "区块高度",
+  "blockTime": "出块时间",
+  "networkHashrate": "全网算力",
+  "difficulty": "挖矿难度"
+}

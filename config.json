@@ -1,0 +1,39 @@
+{
+    "nodeAddr":     "localhost",
+    "wsPort":       8546,
+    "startBlock":   0,
+    "endBlock":     "latest",
+    "quiet":        true,
+    "syncAll":      true,
+    "patch":        true,
+    "patchBlocks":  172800,
+    "bulkSize":     100,
+    "settings": {
+        "symbol": "HLD",
+        "name": "欢乐链",
+        "title": "欢乐生态链（Hld Explorer）",
+        "author": "hld.im",
+        "contact": "service@hld.im",
+        "about": "Hld Explorer is a Analytics Platform for Hld Chain.",
+        "rss": "https://scan.hld.im/",
+        "reddit": "https://www.reddit.com/r/hldScan",
+        "twitter": "https://twitter.com/hldScan",
+        "linkedin": "https://www.linkedin.com/company/hldScan",
+        "github": "https://github.com/hldScan",
+        "logo": "/img/explorer-logo.png",
+        "copyright": "Copyright &copy; 2021 hld.im",
+        "poweredbyCustom": false,
+        "poweredbyEtcImage": "/img/powered-by-etcexplorer-w.png",
+        "poweredbyEtc": true,
+        "tokenList": "https://hld-api.ours.pro/swap/symbols",
+		"tokenListDesc": "not http or https find in public directory, example tokens.json find /public/tokens.json",
+        "useRichList": true,
+        "useFiat": true,
+        "miners": {
+            "0x21b3ef1a84569061ae9ead2a4c85c5fad1b31366": "HLD1-朱雀矿机",
+            "0x61fccd1507839a680c88c355faeb299707122366": "HLD2-玄武矿机",
+            "0xea191776e8249e0a61b48f63aa97f61db08b3366": "HLD3-青龙矿机",
+            "0x261567bf4ea1177e3bfdd2709446270053d84366": "HLD4-白虎矿机"
+         }
+    }
+}
